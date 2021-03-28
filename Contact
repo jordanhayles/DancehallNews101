@@ -1,0 +1,75 @@
+<!DOCTYPE hmtl>
+<html>
+<body style="background-color:yellow">
+</p> <img src="index6.jpg" style="width:250px;height:190px"/>
+<head>
+<style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:Black;
+}
+ footer {
+    padding: 1em;
+    color: red;
+    background-color: black;
+    clear: left;
+    text-align: center;
+}
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+a:hover:not(.active) {
+    background-color:red;
+}
+
+.active {
+background-color:red;
+}
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a href="Home.html">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a class="active" href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
+  <li><a href="#about">Events</a></li>
+  <li><a href="#about">Music Chart</a></li>
+</ul>
+
+</body>
+<br>
+<body>
+<form>
+<p align="center">User Name:</p>
+<p align="center"><input type="Text" Name="User Name"></p>
+<p align="center">Email Address:</p>
+<p align="center"><input type="Email" Name="Email Address"></p>
+<p align="center"> Your Message:</p>
+<p align="center"><textarea rows="4" cols="100" name="comment"form="usrform">
+</textarea></p>
+<p align="center"><button type="button"> Send</button></p>
+
+<br>
+<p>Email Address: Danchallnews101@gmail.com</p>                                    
+<p>Telephone: 1876-990-6780</p>
+
+
+<footer>   Copyright &copy;2017 Dancehallnews101.com  </footer>
+
+</form>
+</body>
+</html>

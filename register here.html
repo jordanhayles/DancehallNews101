@@ -1,0 +1,103 @@
+<html>
+<body background="index6.jpg">
+<body style="background-color:yellow"> <!--to change background color-->
+
+
+<marquee> 
+
+<p style="font-size:30px;" align="center"> Register Now!!! to comment on our source and get notifications. </p>
+
+</marquee><!--Let words move accros the screen-->
+
+
+<head>
+<style>
+footer {             <!-- Css design applied for the footing below the page-->
+    padding: 1em;
+    color: red;
+    background-color: black;
+    clear: left;
+    text-align: center;
+}
+</style>
+<title>registration formm</title>
+</head>
+<script>
+function Register()  <!--Register is the name of the function-->
+{       <!-- To validate registration form-->
+var x= document.forms["Registration"]["username"].value;
+var y=document.forms["Registration"]["password"].value;
+var z=document.forms["Registration"]["pwd"].value;
+var dob=document.forms["Registration"]["dob"].value;
+var first=document.forms["Registration"]["firstname"].value;
+var last=document.forms["Registration"]["lastname"].value;
+var email=document.forms["Registration"]["email"].value;
+
+
+if (x==""||y==""||z==""||first==""||last==""||email==""||dob<17||y==z)
+{alert("Please check if all fields are filled in, check if passwords are matched and ensure that your age is above 18 and over.");
+return false;
+}
+else{ alert("Your are registered");
+}
+if (y==z)
+{
+alert("Password match");
+}
+else
+{
+alert("Password mismatch");
+}
+}
+</script> 
+
+
+<body>
+<p style="font-size:30px;" align="center">
+
+<div <div style="background-color:yellow;color:black;padding:20px;"><!--css inline styles used to create a small background for designing-->
+
+  <br>
+  <form name="Registration" onsubmit="return Register()" >
+    First Name: <br>
+	            <input type="text" name="firstname">
+				<br>
+	Last  Name: <br>
+	            <input type="text" name= "lastname">
+				<br>
+	Age:<br>
+	            <input type="text" name= "dob">
+				<br>
+	User  Name: <br>
+	     <input type="text" name= "username" >
+				<br>
+	Email Address:<br>
+                <input type="email" name="email">
+                <br>
+    Password:<br>
+                <input type="password" name="password">
+				<br>
+	Confirm Password:<br>
+                 <input type="password" name="pwd">
+          <br>	
+		
+<input type="submit" value="Submit">
+</form>
+<a href="Home.html"><input type="submit" value="Cancel"></a>
+	</div>
+	<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+	
+	<footer>   Copyright &copy;2017 Javier Bailey </footer>
+	<br>
+
+</body>
+
+</html>

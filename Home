@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<body style="background-color:yellow">
+
+
+<body>
+<form action="action_page.php">
+</p> <img src="index6.jpg" style="width:250px;height:190px"/>
+<marquee> 
+
+<p style="font-size:30px;" align="center"> Welcome to the Number 1 Dancehall news site! </p>
+
+</marquee>
+
+<head>
+<style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:Black;
+}
+ footer {
+    padding: 1em;
+    color: red;
+    background-color: black;
+    clear: left;
+    text-align: center;
+}
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+a:hover:not(.active) {
+    background-color:red;
+}
+
+.active {
+background-color:red;
+}
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="Contact.html">Contact</a></li>
+  <li><a href="#about">About</a></li>
+  <li><a href="#about">Events</a></li>
+  <li><a href="#about">Music Chart</a></li>
+</ul>
+
+</body>
+<br>
+<form>
+<br>
+User Name:<br>
+<input type="text" name="username">
+<br>
+Password: <br>
+<input type="password" name="password"><br>
+
+<button type="button">Sign In</button><br>
+<br>
+Dont have any account?<br>
+<button type="button">Register Now</button><br>
+<br>
+
+<p style="font-size:25px">Latest News</p><br>                       
+
+<img src="index4.jpg"/>
+<div>
+<article>                                      
+<p style="font-size:18px">Shots are being fired, but who is receiving them?! Vybz Kartel new song 'Closed Casket' trends at #1 this week. </p>
+<p style="font-size:18px">
+The incarcerated deejay is back again with another diss track that seems to be aiming at a certain artiste. </p>
+</article>
+</div>
+<a href= "url">Read more</a><br>
+
+<img src="index5.jpg"style="width:304px;height:228px"/> 
+<p style="font-size:18px">A white british deejay goes viral on social media. Earlier this week the so called deejay have dropped recent freestyle videos that has the dancehall fans going crazy.</p>
+<p style="font-size:18px">Also videos have been circulating the internet recently featuring the deejay visiting Jamaica.</p>
+<a href= "url">Read more</a><br>
+</div>
+<br>
+<footer>   Copyright &copy;2017 Dancehallnews101.com  </footer>
+</form>
+</form>
+
+</html>
